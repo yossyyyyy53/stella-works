@@ -127,7 +127,7 @@ def render_detail(w):
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
         allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
         execution-while-out-of-viewport execution-while-not-rendered web-share
-        src="https://sketchfab.com/models/{w['model']}/embed?autostart=1&autospin=0.15&transparent=1"></iframe></div>"""
+        src="https://sketchfab.com/models/{w['model']}/embed?autostart=1&autospin=0.15&transparent=1&password=stella"></iframe></div>"""
         notice = ""
     else:
         model_html = ""
